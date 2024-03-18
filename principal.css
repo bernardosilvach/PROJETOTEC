@@ -1,0 +1,52 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.clientkeylogo {
+    height: 28vh;
+    width: 18vw;
+}
+
+.topo {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: #5C78DB;
+    height: 20vh;
+    width: 100vw;
+}
+.segundaparte {
+    background-color: green;
+    height: 80vh;
+    width: 100vw;
+    display: flex;
+}
+.lateral {
+    background-color: blue;
+    width: 25vw;
+    height: 80vh;
+}
+.principal {
+    background-color: yellow;
+    width: 75vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+}
+.cima {
+    background-color: purple;
+    height: 20vh;
+    width: 75vw;
+}
+.baixo {
+    background-color: pink;
+    height: 60vh;
+    width: 75vw;
+}
