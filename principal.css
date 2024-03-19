@@ -51,9 +51,13 @@ body {
     flex-direction: column;
 }
 .cima {
-    background-color: purple;
+    /* background-color: purple; */
     height: 20vh;
     width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 33vw;
 }
 
 .baixo {
@@ -63,3 +67,22 @@ body {
 }
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+#barrapesquisa {
+    margin-top: 13vh;
+    padding: 6px;
+    /* font-size: 1rem; */
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    outline: none;
+    background-color: #D9D9D9;
+    width: 20vw;
+}
+  
+  #barrapesquisa::placeholder {
+    color: #000000;
+  }
+  
+  #barrapesquisa:focus {
+    border-color: #333;
+  }
