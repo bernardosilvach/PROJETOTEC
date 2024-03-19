@@ -10,8 +10,15 @@ body {
 }
 
 .clientkeylogo {
-    height: 28vh;
-    width: 18vw;
+    height: 18vh;
+    width: 10vw;
+    padding-top: 1vh;
+}
+
+.logocabeca {
+    height: auto;
+    width: 25%;
+    padding-top: 9vh;
 }
 
 .topo {
@@ -19,11 +26,11 @@ body {
     justify-content: center;
     display: flex;
     background-color: #5C78DB;
-    height: 20vh;
+    height: 10vh;
     width: 100vw;
 }
 .segundaparte {
-    background-color: green;
+    /* background-color: green; */
     height: 80vh;
     width: 100vw;
     display: flex;
@@ -31,12 +38,15 @@ body {
 .lateral {
     background-color: blue;
     width: 25vw;
-    height: 80vh;
+    height: 90vh;
 }
+
+
+/* ~~~~~~~~~~PARTE PRINCIPAL~~~~~~~~~~ */
 .principal {
-    background-color: yellow;
+    /* background-color: yellow; */
     width: 75vw;
-    height: 80vh;
+    height: 90vh;
     display: flex;
     flex-direction: column;
 }
@@ -45,8 +55,11 @@ body {
     height: 20vh;
     width: 75vw;
 }
+
 .baixo {
     background-color: pink;
-    height: 60vh;
+    height: 70vh;
     width: 75vw;
 }
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
