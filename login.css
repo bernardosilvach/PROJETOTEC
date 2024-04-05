@@ -32,12 +32,55 @@ main {
 }
 
 .login {
-    background-color: orange;
+    /* background-color: orange; */
     height: 60vh;
     width: 40vw;
     display: flex;
-    margin-left: 5vh;
+    flex-direction: column;
+    margin-left: 15vh;
     margin-top: 5vh;
+}
+
+.logininput{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 25vw;
+    margin-top: 2vh;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.textologin{
+    margin-bottom: 3vh;
+    font-family: 'Josefin Sans';
+    font-size: 9vh;
+    color: white;
+}
+
+.botaologin{
+    height: 3vh;
+    width: 30vh;
+    margin-top: 1vh;
+    font-family: 'Josefin Sans';
+    border-radius: 10px;
+    border: none;
+}
+
+.botaocadastrar {
+    height: 3vh;
+    width: 22.3vh;
+    margin-top: 1vh;
+    font-family: 'Josefin Sans';
+    border-radius: 10px;
+    border: none;
+}
+
+.esquecesenha {
+    margin-left: 15vh;
+    margin-top: 2vh;
+    font-family: 'Josefin Sans';
+    color: white;
 }
 
 .backgrounddireita {
