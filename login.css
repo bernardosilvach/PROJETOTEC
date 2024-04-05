@@ -52,7 +52,7 @@ main {
 }
 
 .textologin{
-    margin-bottom: 3vh;
+    margin-bottom: 1vh;
     font-family: 'Josefin Sans';
     font-size: 9vh;
     color: white;
@@ -79,9 +79,19 @@ main {
 .esquecesenha {
     margin-left: 15vh;
     margin-top: 2vh;
+    display: flex;
     font-family: 'Josefin Sans';
     color: white;
+    width: 21vh;
 }
+
+.esquecesenha {
+    border-bottom: 1px solid transparent;
+  }
+  
+  .esquecesenha:hover {
+    border-bottom-color: #0b135e;
+  }
 
 .backgrounddireita {
     position: absolute;
@@ -89,4 +99,22 @@ main {
     right: 0;
     width: 65%; /* Adjust the width as needed */
     height: auto; /* Maintain the aspect ratio */
+}
+
+input {
+    border-radius: 10px;
+    height: 3vh;
+    width: 26vw;
+    border: none;
+    font-family: 'Josefin Sans';
+}
+
+::placeholder {
+    margin-left: 1vh;
+    font-size: 0.8rem;
+    padding-left: 1.5vh;
+}
+
+.botoes {
+    margin-top: 1vh;
 }
