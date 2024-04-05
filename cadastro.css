@@ -58,9 +58,9 @@ main {
     color: white;
 }
 
-.botaologin{
+.botaocadastrar{
     height: 3vh;
-    width: 30vh;
+    width: 53.3vh;
     margin-top: 1vh;
     font-family: 'Josefin Sans';
     border-radius: 10px;
@@ -69,16 +69,6 @@ main {
     color: white;
 }
 
-.botaocadastrar {
-    height: 3vh;
-    width: 22.3vh;
-    margin-top: 1vh;
-    font-family: 'Josefin Sans';
-    border-radius: 10px;
-    border: none;
-    background-color: #424cad;
-    color: white;
-}
 
 .esquecesenha {
     margin-left: 15vh;
@@ -86,7 +76,7 @@ main {
     display: flex;
     font-family: 'Josefin Sans';
     color: white;
-    width: 21vh;
+    width: 30vh;
 }
 
 .esquecesenha {
