@@ -109,8 +109,8 @@ main {
 }
 
 input {
-    border-radius: 10px;
-    height: 3vh;
+    border-radius: 20px;
+    height: 4vh;
     width: 89%;
     border: none;
     font-family: 'Josefin Sans';

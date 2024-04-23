@@ -79,10 +79,28 @@ body {
     width: 20vw;
 }
   
-  #barrapesquisa::placeholder {
+#barrapesquisa::placeholder {
     color: #000000;
-  }
+}
   
-  #barrapesquisa:focus {
+#barrapesquisa:focus {
     border-color: #333;
-  }
+}
+
+.cimalateral{
+    background-color: orange;
+    height: 40vh; 
+    width: 20vw;
+    display: flex;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+}
+
+.baixolateral{
+    background-color: red;
+    height: 40vh; 
+    width: 20vw;
+    display: flex;
+    margin-left: 2.5vw;
+    margin-top: 2.5vh;
+}
