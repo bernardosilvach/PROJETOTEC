@@ -87,7 +87,7 @@ main {
     margin-top: 3%;
     display: flex;
     font-family: 'Josefin Sans';
-    font-size: 2vh;
+    font-size: 1.5vh;
     color: white;
     width: 30%;
 }
@@ -96,9 +96,9 @@ main {
     border-bottom: 1px solid transparent;
   }
   
-  .esquecesenha:hover {
+  /* .esquecesenha:hover {
     border-bottom-color: #0b135e;
-  }
+  } */
 
 .backgrounddireita {
     position: absolute;
