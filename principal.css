@@ -62,15 +62,15 @@ body {
 .cima {
     /* background-color: purple; */
     height: 20vh;
-    width: 75vw;
+    width: 72.3vw;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 33vw;
+    justify-content: space-between;
+    gap: 28vw;
 }
 
 .baixo {
-    background-color: pink;
+    /* background-color: orange; */
     height: 70vh;
     width: 75vw;
 }
@@ -96,6 +96,8 @@ body {
     border-color: #333;
 }
 
+
+
 .cimalateral{
     background-color: #212121;
     height: 36vh;
@@ -117,4 +119,10 @@ body {
 .uservazio{
     height: 5vh;
     width: 3vw;
+}
+
+.interiorbaixo{
+    height: 67.3vh;
+    width: 72.3vw;
+    background-color: #D9D9D9;
 }
