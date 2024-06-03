@@ -15,10 +15,25 @@ body {
     padding-top: 1vh;
 }
 
-.logocabeca {
+/* .logocabeca {
     height: auto;
     width: 25%;
     padding-top: 9vh;
+} */
+
+.botaonovocl{
+    height: 5vh;
+    width: 20%;
+    margin-top: 13vh;
+    border-radius: 9px;
+    border: none;
+    background-color: #D9D9D9;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.botaonovocl:hover {
+    background-color: #ccccff;
+    color: #ffffff;
 }
 
 .topo {
