@@ -15,15 +15,7 @@ body {
     padding-top: 1vh;
 }
 
-/* .logocabeca {
-    height: auto;
-    width: 25%;
-    padding-top: 9vh;
-} */
-
-/* ~~~~~~~~~~MODAL~~~~~~~~~~ */
-
-.botaonovocl{
+.botaonovocl {
     height: 5vh;
     width: 30%;
     margin-top: 13vh;
@@ -31,7 +23,6 @@ body {
     border: none;
     background-color: #D9D9D9;
     transition: background-color 0.3s, color 0.3s;
-    background-color: #D9D9D9;
 }
 
 .botaonovocl:hover {
@@ -49,27 +40,25 @@ input[type=password] {
     box-sizing: border-box; 
 }  
 
-/*set styles for the cancel button*/ 
 .cancelbtn { 
     padding: 14px 20px; 
     background-color: #FF2E00; 
 } 
-/*float cancel and signup buttons and add an equal width*/ 
+
 .cancelbtn, 
 .signupbtn { 
     float: left; 
     width: 50% 
 } 
 
-.signupbtn{
+.signupbtn {
     padding: 14px 20px;
     background-color: #5C78DB;
 }
-/*add padding to container elements*/ 
+
 .container { 
     padding: 16px; 
-} 
-/*define the modal’s background*/ 
+}
 
 .modal { 
     display: none; 
@@ -84,7 +73,6 @@ input[type=password] {
     background-color: rgba(0, 0, 0, 0.4); 
     padding-top: 60px; 
 } 
-/*define the modal-content background*/ 
 
 .modal-content { 
     background-color: #fefefe; 
@@ -92,7 +80,6 @@ input[type=password] {
     border: 1px solid #888; 
     width: 80%; 
 } 
-/*define the close button*/ 
 
 .close { 
     position: absolute; 
@@ -102,7 +89,6 @@ input[type=password] {
     font-size: 40px; 
     font-weight: bold; 
 } 
-/*define the close hover and focus effects*/ 
 
 .close:hover, 
 .close:focus { 
@@ -131,19 +117,19 @@ input[type=password] {
     height: 10vh;
     width: 100vw;
 }
+
 .segundaparte {
-    /* background-color: green; */
     height: 80vh;
     width: 100vw;
     display: flex;
 }
+
 .lateral {
-    /* background-color: #D9D9D9; */
     width: 25vw;
     height: 90vh;
 }
 
-.interiorlateral{
+.interiorlateral {
     background-color: #D9D9D9;
     width: 20vw;
     height: 83vh;
@@ -152,19 +138,14 @@ input[type=password] {
     padding-top: 1vh;
 }
 
-/* ~~~~~~~~~~MODAL~~~~~~~~~~ */
-
-
-/* ~~~~~~~~~~PARTE PRINCIPAL~~~~~~~~~~ */
 .principal {
-    /* background-color: yellow; */
     width: 75vw;
     height: 90vh;
     display: flex;
     flex-direction: column;
 }
+
 .cima {
-    /* background-color: purple; */
     height: 20vh;
     width: 72.3vw;
     display: flex;
@@ -174,35 +155,29 @@ input[type=password] {
 }
 
 .baixo {
-    /* background-color: orange; */
     height: 70vh;
     width: 75vw;
 }
 
-/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
-
 #barrapesquisa {
     margin-top: 13vh;
     padding: 6px;
-    /* font-size: 1rem; */
     border: 1px solid #ccc;
     border-radius: 20px;
     outline: none;
     background-color: #D9D9D9;
     width: 20vw;
 }
-  
+
 #barrapesquisa::placeholder {
     color: #000000;
 }
-  
+
 #barrapesquisa:focus {
     border-color: #333;
 }
 
-
-
-.cimalateral{
+.cimalateral {
     background-color: #212121;
     height: 36vh;
     width: 16vw;
@@ -211,7 +186,7 @@ input[type=password] {
     margin-top: 2.5vh;
 }
 
-.baixolateral{
+.baixolateral {
     background-color: #212121;
     height: 36vh;
     width: 16vw;
@@ -220,13 +195,26 @@ input[type=password] {
     margin-top: 4.5vh;
 }
 
-.uservazio{
+.uservazio {
     height: 5vh;
     width: 3vw;
 }
 
-.interiorbaixo{
-    height: 67.3vh;
+.interiorbaixo {
+    height: 65.3vh;
     width: 72.3vw;
     background-color: #D9D9D9;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px;
+}
+
+.card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    width: 98%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
