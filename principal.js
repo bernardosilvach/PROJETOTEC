@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function () {
         var endereco = document.getElementById("endereco").value;
         var status = document.getElementById("status").value;
 
+        // Cria o card antes de enviar a requisição
         var card = document.createElement("div");
         card.classList.add("card");
 
@@ -35,5 +36,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
         document.getElementById("myForm").reset();
         modal.style.display = 'none';
+
+        // Envia a requisição ao servidor
+        fetch('http://localhost:3000/add-client', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                nome: nome,
+                cpf: cpf,
+                email: email,
+                telefone: telefone,
+                endereco: endereco,
+                status: status
+            })
+        })
+        .then(response => response.text())
+        .then(data => {
+            console.log(data);
+        })
+        .catch(error => {
+            console.error('Error:', error);
+            // Adiciona uma mensagem de erro ao card em caso de falha
+            card.innerHTML += `
+                <p style="color: red;">Failed to add client to the server</p>
+            `;
+        });
     });
 });
