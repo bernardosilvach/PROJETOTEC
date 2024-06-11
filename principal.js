@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
             console.error('Error:', error);
             // Adiciona uma mensagem de erro ao card em caso de falha
             card.innerHTML += `
-                <p style="color: red;">Failed to add client to the server</p>
+                <p style="color: red;">Falha ao adicionar o cliente ao server! rsrs</p>
             `;
         });
     });
