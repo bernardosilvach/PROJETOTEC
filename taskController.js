@@ -19,6 +19,6 @@ exports.addClient = (req, res) => {
     const query = 'INSERT INTO clients (nome, cpf, email, telefone, endereco, status) VALUES (?, ?, ?, ?, ?, ?)';
     db.query(query, [nome, cpf, email, telefone, endereco, status], (err, result) => {
         if (err) throw err;
-        res.send('Client added successfully');
+        res.send('Cliente adicionado com sucesso!');
     });
 };
